@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import ErrorMessage from '../components/ErrorMessage';
 
 export const withErrorApi = (View) => {

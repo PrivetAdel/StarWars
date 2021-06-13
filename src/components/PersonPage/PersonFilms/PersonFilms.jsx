@@ -1,8 +1,8 @@
-import React, {useState, useEffect} from 'react';
-import {makeConcurrentRequest, changeHTTP} from '../../../utils/network';
+import React, { useState, useEffect } from 'react';
+import { makeConcurrentRequest, changeHTTP } from '../../../utils/network';
 import styles from './PersonFilms.module.css';
 
-const PersonFilms = ({personFilms}) => {
+const PersonFilms = ({ personFilms }) => {
   const [filmsName, setFilmsName] = useState([]);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const PersonFilms = ({personFilms}) => {
         }
       </ul>
     </div>
-  )
-}
+  );
+};
 
 export default PersonFilms;

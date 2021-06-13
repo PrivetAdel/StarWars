@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styles from './PeopleList.module.css';
 
 const PeopleList = ({people}) => {
@@ -16,7 +16,7 @@ const PeopleList = ({people}) => {
         ))
       }
     </ul>
-  )
-}
+  );
+};
 
 export default PeopleList;

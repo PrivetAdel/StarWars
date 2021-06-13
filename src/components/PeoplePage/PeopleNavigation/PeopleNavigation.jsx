@@ -1,8 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styles from './PeopleNavigation.module.css';
 
-const PeopleNavigation = ({getResource, currentPage, prevPage, nextPage}) => {
+const PeopleNavigation = ({ getResource, currentPage, prevPage, nextPage }) => {
   const handleChangePrev = () => getResource(prevPage);
   const handleChangeNext = () => getResource(nextPage);
 
@@ -26,7 +26,7 @@ const PeopleNavigation = ({getResource, currentPage, prevPage, nextPage}) => {
         </button>
       </Link>
     </div>
-  )
-}
+  );
+};
 
 export default PeopleNavigation;

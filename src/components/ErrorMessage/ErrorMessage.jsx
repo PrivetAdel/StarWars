@@ -8,7 +8,7 @@ const ErrorMessage = () => {
       We cannot display data.<br />
       Come back when we fix everything
     </p>
-  )
-}
+  );
+};
 
 export default ErrorMessage;

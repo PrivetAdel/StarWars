@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './PersonInfo.module.css';
 
-const PersonInfo = ({personInfo}) => {
+const PersonInfo = ({ personInfo }) => {
   return (
     <div className={styles.wrapper}>
       <ul className={styles.list__container}>

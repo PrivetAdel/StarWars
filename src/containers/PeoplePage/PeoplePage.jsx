@@ -1,14 +1,13 @@
-import React, {useEffect, useState} from 'react';
-import {API_PEOPLE} from '../../constants/api';
-import {getApiResource, changeHTTP} from '../../utils/network';
-import {getPeopleId, getPeopleImage, getPeoplePageId} from '../../services/getPeopleData';
-import {withErrorApi} from '../../hoc-helpers/withErrorApi';
-import {useQueryParams} from '../../hooks/useQueryParams';
+import React, { useEffect, useState } from 'react';
+import { API_PEOPLE } from '../../constants/api';
+import { getApiResource, changeHTTP } from '../../utils/network';
+import { getPeopleId, getPeopleImage, getPeoplePageId } from '../../services/getPeopleData';
+import { withErrorApi } from '../../hoc-helpers/withErrorApi';
+import { useQueryParams } from '../../hooks/useQueryParams';
 import PeopleList from '../../components/PeoplePage/PeopleList';
 import PeopleNavigation from '../../components/PeoplePage/PeopleNavigation';
-import styles from './PeoplePage.module.css';
 
-const PeoplePage = ({setErrorApi}) => {
+const PeoplePage = ({ setErrorApi }) => {
   const [people, setPople] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [prevPage, setPrevPage] = useState(null);
@@ -53,7 +52,7 @@ const PeoplePage = ({setErrorApi}) => {
         people && <PeopleList people={people} />
       }
     </>
-  )
-}
+  );
+};
 
 export default withErrorApi(PeoplePage);
