@@ -11,7 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <ThemeProvider>
-        <Router>
+        <Router basename='/star-wars/'>
           <App />
         </Router>
       </ThemeProvider>
