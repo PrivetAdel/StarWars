@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/star-wars/static/css/main.1986ecc0.chunk.css",
+    "main.js": "/star-wars/static/js/main.2146dac1.chunk.js",
+    "main.js.map": "/star-wars/static/js/main.2146dac1.chunk.js.map",
+    "runtime-main.js": "/star-wars/static/js/runtime-main.cb661126.js",
+    "runtime-main.js.map": "/star-wars/static/js/runtime-main.cb661126.js.map",
+    "static/js/2.4e307621.chunk.js": "/star-wars/static/js/2.4e307621.chunk.js",
+    "static/js/2.4e307621.chunk.js.map": "/star-wars/static/js/2.4e307621.chunk.js.map",
+    "index.html": "/star-wars/index.html",
+    "static/css/main.1986ecc0.chunk.css.map": "/star-wars/static/css/main.1986ecc0.chunk.css.map",
+    "static/js/2.4e307621.chunk.js.LICENSE.txt": "/star-wars/static/js/2.4e307621.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/star-wars/static/media/bg.29b25be3.jpg",
+    "static/media/dark-side.e0f8cab7.jpg": "/star-wars/static/media/dark-side.e0f8cab7.jpg",
+    "static/media/falcon.c1d0a8d1.jpg": "/star-wars/static/media/falcon.c1d0a8d1.jpg",
+    "static/media/icon-back.c355dc83.svg": "/star-wars/static/media/icon-back.c355dc83.svg",
+    "static/media/icon-bookmark.b8ea379a.svg": "/star-wars/static/media/icon-bookmark.b8ea379a.svg",
+    "static/media/icon-close.5ae511e9.svg": "/star-wars/static/media/icon-close.5ae511e9.svg",
+    "static/media/icon-droid.f4dde376.svg": "/star-wars/static/media/icon-droid.f4dde376.svg",
+    "static/media/icon-favorite-fill.22d132c5.svg": "/star-wars/static/media/icon-favorite-fill.22d132c5.svg",
+    "static/media/icon-favorite.b44185b1.svg": "/star-wars/static/media/icon-favorite.b44185b1.svg",
+    "static/media/icon-lightsaber.f080a71d.svg": "/star-wars/static/media/icon-lightsaber.f080a71d.svg",
+    "static/media/icon-space-station.d3b7bdae.svg": "/star-wars/static/media/icon-space-station.d3b7bdae.svg",
+    "static/media/light-side.eebc5217.jpg": "/star-wars/static/media/light-side.eebc5217.jpg",
+    "static/media/not-found.1062f5e4.jpg": "/star-wars/static/media/not-found.1062f5e4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb661126.js",
+    "static/js/2.4e307621.chunk.js",
+    "static/css/main.1986ecc0.chunk.css",
+    "static/js/main.2146dac1.chunk.js"
+  ]
+}
